@@ -1,0 +1,104 @@
+
+.notfound {
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 73vh;
+}
+.card {
+    width: 100%;
+}
+body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper {
+    padding: 15px 23px;
+}
+.actionBtn {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.actionBtn li {
+    list-style: none;
+    display: inline;
+    margin: 0 3px;
+}
+.fa-edit {
+    color: green;
+}
+.fa-trash {
+    color: #c82333;
+}
+.form-group input {
+    display: block;
+    width: 100%;
+    padding: 19px 25px;
+    border-radius: 5px;
+    margin-top: 3px;
+    border: 1px solid #8080805e;
+    font-weight: bold !important;
+    color: black;
+}
+select {
+    display: block;
+    width: 100%;
+    padding: 19px 25px;
+    border-radius: 5px;
+    margin-top: 3px;
+    border: 1px solid #8080805e;
+    font-weight: bold !important;
+    color: black;
+}
+.form-group input:focus , select:focus {
+    outline: none;
+    border-color: #808080ab;
+}
+::placeholder {
+    color: #00000061;
+}
+.addUser {
+    margin: 30px 70px;
+}
+.form-group {
+    margin: 0 8px;
+    margin-bottom: 1rem;
+}
+.form-group input[type="file"]{
+    padding: 15.5px 25px !important;
+}
+input[type="submit"]{
+    border: none;
+    padding: 18px 55px;
+    background: #007bff;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 20px auto 0;
+}
+input[type="file"]{
+    cursor: pointer;
+}
+.logout {
+    background: rgba(255,255,255,.1);
+    border-radius: 3px;
+    /* padding: 10px; */
+    position: absolute;
+    bottom: 6px;
+}
+.description {
+    width: 38%;
+}
+.userimg {
+    width: 50px !important;
+    height: 50px !important;
+    box-shadow: none !important;
+    border-radius: 100%;
+    object-fit: cover;
+}
